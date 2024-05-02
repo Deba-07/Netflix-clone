@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Pixelify+Sans&family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #000;
+    overflow-x: hidden;
+}
+
+.main{
+    background-image: url("netflix/images/img-1.jpg");
+    background-position: center center;
+    background-size: calc(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.main .box{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: #000;
+}
+nav{
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav img{
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.container{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    color: #fff;
+    gap: 23px;
+    /* padding: 0 20px; */
+}
+.container> :nth-child(1){
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+}
+.container> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.container> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: #322e2e;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    color: #fff;
+    background-color: rgba(248, 243, 243, 0.021);
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.btn-sm-red{
+    background-color: #ff0000;
+    color: #fff;
+}
+.btn-red{
+    background-color: #ff0000;
+    color: #fff;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.main input{
+    padding: 13px 105px 9px 16px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(235, 227, 227, 0.5);
+    color: #fff;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+.firstsecImg{
+    position: relative;
+}
+.firstsecImg img{
+    width: 35vw;
+    position: relative;
+    left: 84px;
+    top: 10px;
+    z-index: 10;
+    max-height: 100%;
+}
+.firstsecImg video{
+    position: absolute;
+    top: 10px;
+    left: 146px;
+    width: 320px;
+    height: 300px;
+}
+.heading{
+    display: block;
+    position: relative;
+    right: 200px;
+    left: 10px;
+    width: 333px;
+    font-size: 40px;
+}
+.para{
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    width: 333px;
+    font-size: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+.secImg{
+    position: relative;
+}
+.secImg img{
+    width: 40vw;
+    position: relative;
+    right: 100px;
+    top: 10px;
+    z-index: 10;
+    max-height: 100%;
+}
+.heading-2{
+    display: block;
+    position: relative;
+    left: -100px;
+    width: 333px;
+    font-size: 40px;
+}
+.para-2{
+    display: block;
+    position: relative;
+    left: -100px;
+    top: 10px;
+    width: 333px;
+    font-size: 20px;
+}
+.third{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+.thirdImg{
+    position: relative;
+}
+.thirdImg img{
+    width: 40vw;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    z-index: 10;
+    max-height: 100%;
+}
+.thirdImg video{
+    position: absolute;
+    top: 55px;
+    left: 200px;
+    width: 24vw;
+}
+.heading-3{
+    display: block;
+    position: relative;
+    right: 200px;
+    left: 10px;
+    width: 333px;
+    font-size: 40px;
+}
+.para-3{
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    width: 333px;
+    font-size: 20px;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 90%;
+    height: 70vh;
+    margin: auto;
+    color: white;
+    align-items: center;
+    overflow: hidden;
+}
+.fourthImg{
+    position: relative;
+}
+.fourthImg img{
+    width: 40vw;
+    position: relative;
+    right: 100px;
+    top: 10px;
+    z-index: 10;
+    max-height: 100%;
+}
+.heading-4{
+    display: block;
+    position: relative;
+    right: 200px;
+    left: 10px;
+    width: 333px;
+    font-size: 40px;
+}
+.para-4{
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 10px;
+    width: 333px;
+    font-size: 20px;
+}
+.para-5{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+}
+.last-btn{
+    position: relative;
+    left: 300px;
+    top: 15px;
+}
+.last-btn input{
+    padding: 13px 105px 9px 16px;
+    font-weight: 900;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(235, 227, 227, 0.5);
+    color: #fff;
+}
+.faq{
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+}
+.faq > h2{
+    text-align: center;
+    font-size: 45px;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 69vw;
+    margin: 14px auto;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+    overflow: hidden;
+}
+.faqbox:hover{
+    background-color: #414141;
+}
+footer{
+    color: #fff;
+    max-width: 70vw;
+    height: 70vh;
+    margin: auto;
+    padding: 14px;
+    overflow: hidden;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #fff;
+}
+footer .questions{
+    padding: 34px 0;
+}
+footer a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 100;
+}
+.footerItem{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.footer-btn{
+    position: relative;
+    right: 6px;
+    top: 30px;
+}
+.footer-end{
+    position: relative;
+    top: 50px;
+    right: 6px;
+}
